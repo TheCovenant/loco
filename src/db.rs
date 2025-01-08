@@ -272,7 +272,7 @@ where
     let db_backend = db.get_database_backend();
 
     // Reset auto-increment
-    reset_autoincrement(db_backend, &table_name, db).await?;
+    // reset_autoincrement(db_backend, &table_name, db).await?;
 
     Ok(())
 }
